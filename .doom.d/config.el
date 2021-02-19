@@ -59,6 +59,8 @@
 (setq term-bind-key-alist
   '(
     ("C-c C-c" . term-interrupt-subjob)
+    ("C-c C-j" . term-line-mode)
+    ("C-c C-k" . term-char-mode)
     ("C-c C-e" . term-send-esc)
     ("C-p" . previous-line)
     ("C-n" . next-line)
