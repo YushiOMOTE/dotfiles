@@ -81,4 +81,4 @@
     ("M-," . term-send-raw)
     ("M-." . comint-dynamic-complete)))
 
-(setq multi-term-program "/bin/bash")
+(setq multi-term-program "/usr/bin/fish")
