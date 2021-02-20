@@ -82,3 +82,5 @@
     ("M-." . comint-dynamic-complete)))
 
 (setq multi-term-program "/usr/bin/fish")
+
+(map! "C-x b" #'+ivy/switch-buffer)
