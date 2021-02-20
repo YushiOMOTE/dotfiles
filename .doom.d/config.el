@@ -80,3 +80,5 @@
     ("M-d" . term-send-delete-word)
     ("M-," . term-send-raw)
     ("M-." . comint-dynamic-complete)))
+
+(setq multi-term-program "/bin/bash")
